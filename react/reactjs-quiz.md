@@ -78,6 +78,8 @@ const topics = ['cooking', 'art', 'history'];
 - [ ] React Router
 - [x] React Context
 
+[Reference](https://reactjs.org/docs/context.html)
+
 #### Q9. What should the console read when the following code is run?
 
 ```javascript
@@ -310,6 +312,8 @@ const Heading = () => {
 - [x] componentDidMount
 - [ ] componentWillReceiveProps
 - [ ] componentWillMount
+
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
 
 #### Q33. React components are composed to create a user interface. How are components composed?
 
@@ -746,6 +750,8 @@ useEffect(() => {
 - [ ] render
 - [ ] componentDidUpdate
 
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
+
 #### Q65. What is the name of the base component of this component?
 
 ```javascript
@@ -1069,6 +1075,8 @@ function Dish() {
 - [ ] right after the component is updated
 - [ ] right after an API call
 
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
+
 #### Q93. What might you use webpack for?
 
 - [ ] to fetch remote dependencies used by your app
@@ -1144,7 +1152,7 @@ add();
 
 ![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png)
 
-#### Q99. Why might you use a React.createRef?
+#### Q99. Why might you use a React.ref?
 
 - [ ] to refer to another JS file
 - [ ] to bind the function
@@ -1153,7 +1161,7 @@ add();
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
 
-#### Q100. What assignment pattern is being used in this code?
+#### Q100. What pattern is being used in this code block?
 
 ```javascript
 const { tree, lake } = nature;
